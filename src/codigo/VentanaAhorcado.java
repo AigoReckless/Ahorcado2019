@@ -5,7 +5,9 @@
  */
 package codigo;
 
+import java.awt.Component;
 import java.awt.Image;
+import java.util.Random;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
@@ -17,16 +19,21 @@ public class VentanaAhorcado extends javax.swing.JFrame {
     
     String palabraOculta = "CETYS";
     int numeroDeFallos = 0;
+    //variable que indica si la partida ha terminado 
+    boolean partidaTerminada = false;
+    
     
     /**
      * Creates new form VentanaAhorcado
      */
     public VentanaAhorcado() {
         initComponents();
+        palabraOculta = eligePalabra();
         /*
         Inicializo el display del juego para que tenga tantos guiones
         bajos y espacios como la palabra oculta
         */
+        
         String aux = "";
         for (int i= 0; i < palabraOculta.length(); i++){
             aux += "_ ";
@@ -36,10 +43,12 @@ public class VentanaAhorcado extends javax.swing.JFrame {
     }
     
     private void chequeaBoton(JButton boton){
-        boton.setEnabled(false);
-        chequeaLetra(boton.getText());
-    }
+        if (!partidaTerminada){
+            boton.setEnabled(false);
+            chequeaLetra(boton.getText());
     
+        }
+    }
     private void chequeaLetra (String letra){
         //Leo lo que haya en la pantalla y lo guardo en un String
         String palabraConGuiones = display.getText();
@@ -62,10 +71,16 @@ public class VentanaAhorcado extends javax.swing.JFrame {
         if (!acierto){
             numeroDeFallos++;
             dibujaImagen(numeroDeFallos);
+            if (numeroDeFallos >=6){
+                partidaTerminada = true;
+                deshabilitaTodosLosBotones();
+            }
         }
         //Si el if se cumple es porque ya no hay guiones en el display
         if (!palabraConGuiones.contains("_")){
             dibujaImagen(-1);
+            partidaTerminada = true;
+            deshabilitaTodosLosBotones();
         }
         
     }
@@ -94,6 +109,27 @@ public class VentanaAhorcado extends javax.swing.JFrame {
         visorImagen.setIcon(miImagen);
     }
     
+    private String eligePalabra(){
+        //Este método elegirá una palabra al azar dentro de una lista de palabras
+        //la lista de palabras la vamos a guardar en un array 
+        
+        String [] listaPalabras = {"hola", "ADIOS", "NONOSVAMOS", "ODIOELLOL", "LOLESDROGA"};
+            //declaro una variable aleatoria
+        Random aleatorio = new Random();
+        int posicion = aleatorio.nextInt(listaPalabras.length);
+        return listaPalabras[posicion].toUpperCase();
+        
+    }
+    
+    private void deshabilitaTodosLosBotones(){
+        Component[] componentes = getContentPane().getComponents();
+        for (int i=0; i<componentes.length; i++){
+            if (componentes[i] instanceof JButton){
+                
+                componentes[i].setEnabled(false);
+            }
+        }
+    }
     
     /**
      * This method is called from within the constructor to initialize the form.
