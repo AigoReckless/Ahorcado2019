@@ -140,6 +140,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jDialog1 = new javax.swing.JDialog();
         display = new javax.swing.JLabel();
         visorImagen = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
@@ -171,6 +172,17 @@ public class VentanaAhorcado extends javax.swing.JFrame {
         jButton31 = new javax.swing.JButton();
         jButton33 = new javax.swing.JButton();
 
+        javax.swing.GroupLayout jDialog1Layout = new javax.swing.GroupLayout(jDialog1.getContentPane());
+        jDialog1.getContentPane().setLayout(jDialog1Layout);
+        jDialog1Layout.setHorizontalGroup(
+            jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        jDialog1Layout.setVerticalGroup(
+            jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 300, Short.MAX_VALUE)
+        );
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
 
@@ -180,6 +192,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton2.setText("A");
+        jButton2.setFocusPainted(false);
         jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton2MousePressed(evt);
@@ -188,6 +201,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton3.setText("B");
+        jButton3.setFocusPainted(false);
         jButton3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton3MousePressed(evt);
@@ -196,6 +210,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton4.setText("D");
+        jButton4.setFocusPainted(false);
         jButton4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton4MousePressed(evt);
@@ -204,6 +219,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton5.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton5.setText("C");
+        jButton5.setFocusPainted(false);
         jButton5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton5MousePressed(evt);
@@ -212,6 +228,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton6.setText("E");
+        jButton6.setFocusPainted(false);
         jButton6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton6MousePressed(evt);
@@ -220,6 +237,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton7.setText("F");
+        jButton7.setFocusPainted(false);
         jButton7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton7MousePressed(evt);
@@ -228,6 +246,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton9.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton9.setText("G");
+        jButton9.setFocusPainted(false);
         jButton9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton9MousePressed(evt);
@@ -236,6 +255,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton10.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton10.setText("H");
+        jButton10.setFocusPainted(false);
         jButton10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton10MousePressed(evt);
@@ -244,6 +264,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton11.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton11.setText("I");
+        jButton11.setFocusPainted(false);
         jButton11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton11MousePressed(evt);
@@ -252,6 +273,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton12.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton12.setText("K");
+        jButton12.setFocusPainted(false);
         jButton12.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton12MousePressed(evt);
@@ -260,6 +282,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton13.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton13.setText("J");
+        jButton13.setFocusPainted(false);
         jButton13.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton13MousePressed(evt);
@@ -268,6 +291,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton14.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton14.setText("L");
+        jButton14.setFocusPainted(false);
         jButton14.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton14MousePressed(evt);
@@ -276,6 +300,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton15.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton15.setText("M");
+        jButton15.setFocusPainted(false);
         jButton15.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton15MousePressed(evt);
@@ -284,6 +309,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton17.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton17.setText("N");
+        jButton17.setFocusPainted(false);
         jButton17.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton17MousePressed(evt);
@@ -292,6 +318,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton18.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton18.setText("Ñ");
+        jButton18.setFocusPainted(false);
         jButton18.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton18MousePressed(evt);
@@ -300,6 +327,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton19.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton19.setText("O");
+        jButton19.setFocusPainted(false);
         jButton19.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton19MousePressed(evt);
@@ -308,6 +336,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton20.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton20.setText("Q");
+        jButton20.setFocusPainted(false);
         jButton20.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton20MousePressed(evt);
@@ -316,6 +345,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton21.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton21.setText("P");
+        jButton21.setFocusPainted(false);
         jButton21.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton21MousePressed(evt);
@@ -324,6 +354,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton22.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton22.setText("R");
+        jButton22.setFocusPainted(false);
         jButton22.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton22MousePressed(evt);
@@ -332,6 +363,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton23.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton23.setText("S");
+        jButton23.setFocusPainted(false);
         jButton23.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton23MousePressed(evt);
@@ -340,6 +372,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton25.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton25.setText("T");
+        jButton25.setFocusPainted(false);
         jButton25.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton25MousePressed(evt);
@@ -348,6 +381,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton26.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton26.setText("U");
+        jButton26.setFocusPainted(false);
         jButton26.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton26MousePressed(evt);
@@ -356,6 +390,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton27.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton27.setText("V");
+        jButton27.setFocusPainted(false);
         jButton27.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton27MousePressed(evt);
@@ -364,6 +399,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton28.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton28.setText("A");
+        jButton28.setFocusPainted(false);
         jButton28.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton28MousePressed(evt);
@@ -372,6 +408,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton29.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton29.setText("W");
+        jButton29.setFocusPainted(false);
         jButton29.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton29MousePressed(evt);
@@ -380,6 +417,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton30.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton30.setText("X");
+        jButton30.setFocusPainted(false);
         jButton30.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton30MousePressed(evt);
@@ -388,6 +426,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton31.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton31.setText("Y");
+        jButton31.setFocusPainted(false);
         jButton31.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton31MousePressed(evt);
@@ -396,6 +435,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
 
         jButton33.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton33.setText("Z");
+        jButton33.setFocusPainted(false);
         jButton33.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 jButton33MousePressed(evt);
@@ -695,6 +735,7 @@ public class VentanaAhorcado extends javax.swing.JFrame {
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton9;
+    private javax.swing.JDialog jDialog1;
     private javax.swing.JLabel visorImagen;
     // End of variables declaration//GEN-END:variables
 }
